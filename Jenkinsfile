@@ -3,7 +3,7 @@ node {
     def application = "devopsexample"
     
     //Docker Hub Account ID
-    def dockerhubaccountid = "vasuvespag"
+    def dockerhubaccountid = "ozumbabrown"
 	
     // reference to maven
     // ** NOTE: This 'maven-3.6.3' Maven tool must be configured in the Jenkins Global Configuration.   
@@ -16,7 +16,7 @@ node {
     
     stage('Clone Repo') { 
       // Get some code from a GitHub repository
-      git url:'https://github.com/vasuvespag/PGDO_Project2.git',branch:'master' //update your repo
+      git url:'https://github.com/ozumba1/PGDO_Project2.git',branch:'master' //update your repo
       // Get the Maven tool.
       // ** NOTE: This 'maven-3.6.3' Maven tool must be configured
       // **       in the global configuration.           
